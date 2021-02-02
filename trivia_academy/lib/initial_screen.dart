@@ -5,7 +5,9 @@ class InitialScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Material(
       color: Colors.red,
-      child: Column(),
+      child: Column(
+        children: [],
+      ),
     );
   }
 }
